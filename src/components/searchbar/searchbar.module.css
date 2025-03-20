@@ -1,0 +1,10 @@
+.search{
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column; */
+    /* gap: 40px; */
+}
+.search img{
+    width: 100px;
+    height: 100px;  
+}
