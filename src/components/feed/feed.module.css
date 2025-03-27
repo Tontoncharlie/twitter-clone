@@ -1,6 +1,6 @@
 .feedContainer{
     position: relative;
-    width: 500px;
+    width: 600px;
     top: -20px;
 }
 .feedContainer::after{
@@ -50,7 +50,7 @@
 .logoContainer{
     position: relative;
     display: flex;
-    gap: 330px;
+    gap: 430px;
     align-items: center;
 }
 .logos{

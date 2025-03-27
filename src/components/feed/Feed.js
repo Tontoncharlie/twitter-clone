@@ -4,6 +4,7 @@ import React from 'react';
 import styles from './feed.module.css'
 import Image from 'next/image';
 import { useState } from 'react';
+// import Tweets from "@/components/tweets/Tweets";
 
 const Feed = () => {
     const [active, setActive] = useState('For you')
@@ -61,7 +62,7 @@ const Feed = () => {
       </div>
 
       </div>
-
+    {/* <Tweets/> */}
     </div>
   );
 }

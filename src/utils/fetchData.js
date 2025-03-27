@@ -26,5 +26,18 @@ export const fetchAns = async () => {
     return data;
 }
 
+export const fetchTweets = async () => {
+    const result = await fetch(`${BASE_url}/retweets?pid=1552735248026411010&count=40`, {   
+        method: 'GET',
+        headers: {
+            'x-rapidapi-key': '6abbfa36cdmshc3bfd0c1b1e3013p19ffa0jsnd078e62e5d1c',
+		    'x-rapidapi-host': 'twitter241.p.rapidapi.com'
+        }
+    })
 
+    console.log(result);
+    const data = await result.json();  // converting promise to json
+    console.log(data)
+    return data;
+}
 
